@@ -1,0 +1,65 @@
+.traininglayout{
+    width: 100%;
+    background: rgb(255, 255, 191) center ;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.traininglayout h1{
+    text-align: center;
+    padding: 25px 0;
+}
+.container{
+    width: 1200px;
+    // height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    //border: 2px solid red;
+}
+.itemscard{
+    flex-basis: 23%;
+    margin: 10px 0;
+    box-shadow: 1px 1px 10px orangered;
+    text-align: center;
+    padding: 5px;
+}
+
+.itemscard h3{
+    font-weight: bold;
+    padding: 10px 0; 
+
+}
+.itemscard:hover{
+    background-color: rgb(248, 140, 248);
+}
+.itemscard:hover{
+    color: white;
+}
+
+@media only screen and (min-width: 10px) and (max-width:400px){
+    .container{
+        width: 100%;
+        flex-direction: column;
+        background-color: chartreuse !important;
+        
+    }
+    .itemscard{
+        margin: 0 10px;
+    }
+}
+
+@media only screen and (min-width:400px) and (max-width:700px){
+    .container{
+        width: 100%;
+        flex-direction: column;
+        background-color: palevioletred;
+    }
+}
+@media only screen and (min-width:700px) and (max-width:1000px){
+    .container{
+        width: 100%;
+        flex-direction:column;
+        background-color: rgb(218, 139, 255);
+    }
+}

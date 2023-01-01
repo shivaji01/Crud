@@ -1,0 +1,84 @@
+{
+  "EmpAlldata": [
+    {
+      "id": 1,
+      "fname": "Shivaji",
+      "lname": "Kshirsagar",
+      "designation": "Developer",
+      "salary": "10000",
+      "company": "Google"
+    },
+    {
+      "id": 2,
+      "fname": "Ganesh",
+      "lname": "Pawar",
+      "designation": "Engineer",
+      "salary": "20000",
+      "company": "Wipro"
+    },
+    {
+      "id": 3,
+      "fname": "Anil",
+      "lname": "Patil",
+      "designation": "Software Developer",
+      "salary": "30000",
+      "company": "PC Soft"
+    },
+    {
+      "id": 4,
+      "fname": "Dinesh",
+      "lname": "Jadhav",
+      "designation": "Consultant",
+      "salary": "40000",
+      "company": "Infosys"
+    },
+    {
+      "id": 5,
+      "fname": "Pradip",
+      "lname": "Chavan",
+      "designation": "Teacher",
+      "salary": "50000",
+      "company": "dell"
+    },
+    {
+      "id": 6,
+      "fname": "arun",
+      "lname": "patil",
+      "designation": "developer",
+      "salary": "20000",
+      "company": "Wipro"
+    },
+    {
+      "id": 7,
+      "fname": "Sandip",
+      "lname": "kshirsagar",
+      "designation": "drivaer",
+      "salary": "60000",
+      "company": "TCS"
+    },
+    {
+      "id": 8,
+      "fname": "kiran",
+      "lname": "Kshirsagar",
+      "designation": "homemaker",
+      "salary": "50000",
+      "company": "home"
+    },
+    {
+      "id": 10,
+      "fname": "shivaji",
+      "lname": "Kshirsagar",
+      "designation": "drivaer",
+      "salary": "60000",
+      "company": "Pepsi"
+    },
+    {
+      "id": 13,
+      "fname": "Anil",
+      "lname": "salunkhe",
+      "designation": "Software Developer",
+      "salary": "30000",
+      "company": "SBI"
+    }
+  ]
+}

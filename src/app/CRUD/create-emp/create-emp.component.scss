@@ -1,0 +1,18 @@
+.container{
+   display: block;
+   margin-top: 20px;
+   padding: 10px;
+    width: 500px;
+   background-color: rgba(180, 154, 154, 0.808);
+}
+input.ng-invalid{
+    border-left: 2px solid rgb(255, 24, 8);
+    height: 30px;
+}
+input.ng-valid{
+    border-left: 3px solid green;
+    height: 30px;
+}
+
+
+

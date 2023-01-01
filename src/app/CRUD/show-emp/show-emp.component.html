@@ -1,0 +1,32 @@
+
+<div class="heading">
+    <button class="btn btn-primary" routerLink="/create">Add Employee</button>
+    <button class="btn btn-primary ms-2" routerLink="/cardLayout">Card Layout Design</button>
+</div>
+<div class="conatiner ">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Sr.No.</th>
+                <th>First name</th>
+                <th>Last Name</th>
+                <th>Designation</th>
+                <th>Salary</th>
+                <th>Company</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of allempshow let i=index" >
+                <td>{{i+1}}.</td>
+                <td>{{item.fname}}</td>
+                <td>{{item.lname}}</td>
+                <td>{{item.designation}}</td>
+                <td>{{item.salary}}</td>
+                <td>{{item.company}}</td>
+                <td><button class="btn btn-success" (click)="UpdateEmp(item.id)">Update</button>
+                    <button class="btn btn-danger" (click)="DeleteEmployee(item.id, i)">Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
