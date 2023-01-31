@@ -1,0 +1,322 @@
+:root {
+   --theme-bg-color: rgba(16 18 27 / 40%);
+   --border-color: rgba(113 119 144 / 25%);
+   --theme-color: #f9fafb;
+   --inactive-color: rgb(113 119 144 / 78%);
+   --body-font: "Poppins", sans-serif;
+   --hover-menu-bg: rgba(12 15 25 / 30%);
+   --content-title-color: #999ba5;
+   --content-bg: rgb(146 151 179 / 13%);
+   --button-inactive: rgb(249 250 251 / 55%);
+   --dropdown-bg: #21242d;
+   --dropdown-hover: rgb(42 46 60);
+   --popup-bg: rgb(22 25 37);
+   --search-bg:  #14162b;
+   --overlay-bg: rgba(36, 39, 59, 0.3);
+   --scrollbar-bg: rgb(1 2 3 / 40%);
+  }
+.navbar{
+ 
+   background-color: #3B5998 !important;
+   position: fixed;
+   width: 100%;
+ 
+ }
+
+
+
+ 
+ .first_h{
+   width: 100%;
+   background-color: black;
+   color: white;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+  padding: 1px;
+   margin: 5px;
+ }
+ 
+ .itemclass{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+   
+ }
+ .cardcss1{
+   height: 450px;
+   width: 550px;
+   overflow: hidden;
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+ }
+ .cardcss1 img{
+   transition: all 1.5s ease;
+ }
+ .cardcss:hover img{
+   transform: scale(1.5);
+ }
+ .cardcss{
+
+   overflow: hidden;
+ }
+ .cardcss img{
+   transition: all 1.5s ease;
+ }
+ .cardcss:hover img{
+   transform: scale(1.5);
+ }
+ #grid_f{
+   width: 100%;
+   z-index: 3;
+   margin-top: 0.5em;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 1em;
+ }
+ #pro1{
+   background-image: url(https://images.unsplash.com/flagged/photo-1556637640-2c80d3201be8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ #pro2{
+   background-image: url(https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ #pro3{
+   background-image: url(https://images.unsplash.com/photo-1542219550-37153d387c27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ .pro{
+   width: 33%;
+   height: 16em;
+   margin-left: 1em;
+   padding: 10px;
+   border-radius: 2px;
+   display: flex;
+   justify-content: center;
+   color: white;
+ 
+ }
+ #msg{
+   margin: 50px auto;
+   text-align: center;
+ }
+ .navbar-collapse{
+     margin-left: 950px;
+ }
+ .shop_n{
+     
+   font-weight: bold;
+ }
+ .nav-link:hover{
+ background-color: rgb(250, 179, 73);
+ border-radius: 5px;
+ }
+ .products:hover{
+     background-color: antiquewhite !important;
+     color: black !important;
+     border: 2px solid black !important;;
+ 
+ }
+ .video{
+   position: absolute;
+   width: 100%;
+ }
+ .products{
+   border-radius: 15px;
+ }
+ 
+// model
+img{
+	max-width: 100%;
+}
+.gallery{
+	background-color: #dbddf1;
+	padding: 40px auto;
+}
+.gallery img{
+	background-color: #ffffff;
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+// model end
+
+ 
+ .cardeffect:hover{
+     size-adjust: inherit;
+     transform: scale(1);
+ }
+ .card-img-top {
+   width: 100%;
+   height: 15vw;
+   object-fit: cover;
+}
+ .hover-2 {
+     /* the height */
+     --h: 1.3em;
+   
+     line-height: var(--h);
+     color: #0000;
+     text-shadow: 
+       0 var(--_t,var(--h)) #fff,
+       0 0 var(--_c, #000);
+     background: 
+       linear-gradient(#1095c1 0 0) 
+       bottom/100% var(--_d, 0) no-repeat;
+     overflow: hidden;
+     transition: 0.3s;
+   }
+   .hover-2:hover {
+     --_d: 100%;
+     --_t: 0;
+     --_c: #0000;
+   }
+   .border1{
+     border-left: 2px solid rgb(223, 212, 212);
+     min-height: 250px;
+   }
+ .text-small{
+   font-size: 12px;
+ 
+ }
+ li:hover{
+   position: relative;;
+   transform: scale(1.5);
+   margin-left: 30px;
+ }
+ li{
+   list-style: none;
+   //background-color: indianred;
+   color: #fff;
+ }
+ /* Style all font awesome icons */
+ .fa {
+   padding: 20px;
+   font-size: 30px;
+   width: 30px;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 50%;
+ }
+ 
+ /* Add a hover effect if you want */
+ .fa:hover {
+   opacity: 0.7;
+ }
+ 
+ 
+ .videosize{
+   display: inline-block;
+   height: 630px;
+   width: 100%;
+ }
+ .sticky{
+   position: sticky;
+   border: 2px solid rgb(241, 73, 205) 2px;
+   background-color: #b1fcff;
+   height: 75px;
+   width: 250px;
+   bottom: 0;
+   display: block;
+   left: 1100px;
+   margin: 15px;
+   padding: 5px;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ }
+ .sticky:hover{
+   position: sticky;
+   border: 2px solid rgb(14, 30, 247) 2px;
+   background-color: #f0ff17;
+   height: 75px;
+   width: 250px;
+   bottom: 0;
+   display: block;
+   left: 1100px;
+   margin: 15px;
+   padding: 5px;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ }
+ .headtext{
+   background-color: darkkhaki;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+ 
+ }
+ 
+ input.ng-invalid{
+   border-left: 5px solid red;
+ }
+ input.ng-valid{
+   border-left: 5px solid green;
+ }
+ // .itemhead{
+ //   width: 100%;
+ //   display: flex;
+ //   position: absolute;
+ //   align-items: center;
+ //   justify-content: space-between;
+ //   //height: 200px;
+ //   //display: block;
+ //   flex-wrap:wrap;
+   
+ // }
+ .cardc{
+ box-shadow: 5px 5px 5px 5px rgb(255, 164, 255);
+ }
+ .cardc:hover{
+   transform: scale(1.07);
+   margin: auto;
+   }
+   ngb-rating {
+     color: #FFC107;
+     font-size: 80px;
+ }
+ .starrating{
+   padding: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 500px
+ }
+ #extras{
+  margin-top: 4%;
+ }
+ .pay{
+   float: right;
+   margin-top: -2.3em;
+   margin-right: 10%;
+ }
+ @media only screen and (max-width:750px){
+   .videosize{
+     display: inline-block;
+     height: 630px;
+     width: 100%;
+   }
+   .video{
+   position: absolute;
+   width: 100%;
+ }
+   .navbar{
+  
+     background-color: #3B5998 !important;
+     position: fixed;
+     width: 100%;
+   
+   }
+ }
+ 

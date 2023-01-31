@@ -1,9 +1,19 @@
-
 <div class="heading">
     <button class="btn btn-primary" routerLink="/create">Add Employee</button>
     <button class="btn btn-primary ms-2" routerLink="/cardLayout">Card Layout Design</button>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="selectsal" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Sort data
+        </button>
+        <ul class="dropdown-menu active" aria-labelledby="selectsal">
+            <li><a class="dropdown-item" (click)="sortBysalByHightoLow()">Sort By low to high</a></li>
+            <li><a class="dropdown-item" (click)="sortBysalByLowtoHigh()">Sort By high to low</a></li>
+
+        </ul>
+    </div>
 </div>
-<div class="conatiner ">
+<div class="conatiner text-white">
     <table class="table">
         <thead>
             <tr>
@@ -17,7 +27,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr *ngFor="let item of allempshow let i=index" >
+            <tr *ngFor="let item of allempshow let i=index">
                 <td>{{i+1}}.</td>
                 <td>{{item.fname}}</td>
                 <td>{{item.lname}}</td>
@@ -25,7 +35,8 @@
                 <td>{{item.salary}}</td>
                 <td>{{item.company}}</td>
                 <td><button class="btn btn-success" (click)="UpdateEmp(item.id)">Update</button>
-                    <button class="btn btn-danger" (click)="DeleteEmployee(item.id, i)">Delete</button></td>
+                    <button class="btn btn-danger" (click)="DeleteEmployee(item.id, i)">Delete</button>
+                </td>
             </tr>
         </tbody>
     </table>

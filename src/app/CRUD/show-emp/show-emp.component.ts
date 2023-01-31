@@ -30,4 +30,12 @@ export class ShowEmpComponent implements OnInit {
       this.allempshow.splice(i, 1);
     });
   }
+
+  sortBysalByHightoLow(){
+    this.allempshow.sort((a:any,b:any)=>(a.salary > b.salary) ? 1 : -1);
+  }
+  
+  sortBysalByLowtoHigh(){
+    this.allempshow.sort((a:any,b:any)=>(b.salary > a.salary) ? 1 : -1);
+  }
 }

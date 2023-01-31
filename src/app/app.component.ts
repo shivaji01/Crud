@@ -29,44 +29,44 @@ export class AppComponent {
   aaaa: any
   ngOnInit(): void {
     this.ChartData();
-    this.apileadspost();
+    //this.apileadspost();
     
 
   }
 
-  apileadspost() {
-    this._Lead.APARTY_NO = "00182";
-    this._Lead.DOC_TYPE = "LA";
-    this.api.getallleads(this._Lead).subscribe(res => {
-      this.newdata = res.data;
-      if (this.newdata != null) {
+  // apileadspost() {
+  //   this._Lead.APARTY_NO = "00182";
+  //   this._Lead.DOC_TYPE = "LA";
+  //   this.api.getallleads(this._Lead).subscribe(res => {
+  //     this.newdata = res.data;
+  //     if (this.newdata != null) {
         
-            console.log(this.newdata);
-      }})
-  }
+  //           console.log(this.newdata);
+  //     }})
+  // }
 
 
   ChartData() {
     const ctx = document.getElementById('myChart');
 
-    new Chart("myChart", {
-      type: 'line',
-      data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-        datasets: [{
-          label: '# of Votes',
-          data: [12, 19, 3, 5, 2, 3],
-          borderWidth: 1
-        }]
-      },
-      options: {
-        scales: {
-          y: {
-            beginAtZero: true
-          }
-        }
-      }
-    });
+    // new Chart("myChart", {
+    //   type: 'line',
+    //   data: {
+    //     labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+    //     datasets: [{
+    //       label: '# of Votes',
+    //       data: [12, 19, 3, 5, 2, 3],
+    //       borderWidth: 1
+    //     }]
+    //   },
+    //   options: {
+    //     scales: {
+    //       y: {
+    //         beginAtZero: true
+    //       }
+    //     }
+    //   }
+    // });
 
   }
 }

@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { leadsinfo } from './leaddata';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { productkey } from './imgwrap/products';
 
 @Injectable({
   providedIn: 'root'
@@ -13,11 +14,25 @@ export class ApiService {
 // 		Authorization: `Bearer +{this.tokenkey}`
 // 		})
 // 	}
-  Baselink='https://app.ieverp.com/CRM/API/Lead/GetAllLeads'
-  
+  //Baselink='https://app.ieverp.com/CRM/API/Lead/GetAllLeads'
+  URL="http://app.ieverp.com/abt/api/home/GetPrdoftheday";
+  URL1="http://app.ieverp.com/abt/api/home/Getnewarrival";
+  URL2="http://app.ieverp.com/abt/api/home/GetBestSellerproduct";
   constructor(private http:HttpClient ) { }
+  // getallleads(_leads:leadsinfo){
+  //   return this.http.post<any>(this.Baselink , _leads,);
+  // }
 
-  getallleads(_leads:leadsinfo){
-    return this.http.post<any>(this.Baselink , _leads,);
+
+
+  getprodAPI(_prod:productkey){
+    return this.http.post<any>(this.URL,_prod);
   }
+  getprodAPI1(_prod:productkey){
+    return this.http.post<any>(this.URL1,_prod);
+  }
+  getprodAPI2(_prod:productkey){
+    return this.http.post<any>(this.URL2,_prod);
+  }
+
 }

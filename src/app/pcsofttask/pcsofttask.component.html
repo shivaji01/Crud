@@ -1,0 +1,552 @@
+<!-- 
+    <div class="row" style="margin-top: 2em;">
+      <div class="large-4 columns">
+        <h3>Basic Usage</h3>
+        <p>Demonstrates basic usage of the plugin.</p>
+      </div>
+      <div class="large-8 columns">
+        <div class="twentytwenty-container">
+          <img src="assets/wrapper/img/1_1.jpg" />
+          <img src="assets/wrapper/img/1_2.jpg" />
+        </div>
+      </div>
+    </div>
+
+    
+
+  
+   
+    <script>
+    $(function(){
+      $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
+      $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
+    });
+    </script>
+ -->
+<!-- <div class="container-fluid  shadow-sm">
+    <nav class="navbar navbar-expand-lg  ">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Mahabis</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav active">
+                    <a class="nav-link active p-2 text-white" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active p-2 text-white" data-bs-toggle="modal" data-bs-target="#signin"><i
+                            class="bi bi-person-circle"></i>Login</a>
+                    <a class="nav-link active p-2 text-white">SignOut</a>
+                    <a class="nav-link active p-2 text-white" href="#"><i class="bi bi-cart-plus-fill mb-3"></i><span
+                            class="badge text-bg-danger " style="position: relative;top: -10px;">0</span></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div> -->
+<!-- <div class="container-fluid mt-2">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/images/img.jpg" style="height: 400px; width: 90%;" class="d-block w-100" alt="...">
+            </div>
+
+        </div>
+    </div>
+</div> -->
+
+<div>
+  <nav class="navbar navbar-expand-lg sticky-top bg-light ">
+    <div class="container-fluid ">
+      <a class="navbar-brand text-white" href="#">Mahabis</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ">
+          <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          <a class="nav-link text-white " data-bs-toggle="modal" data-bs-target="#signin" href="#"><i
+              class="bi bi-person-circle text-white "></i> Login</a>
+          <a class="nav-link text-white" href="#">Logout</a>
+          <a class="nav-link text-white"><i class="bi bi-cart-plus-fill mb-3"></i>Cart</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<div id="carouselExampleFade" style="padding-top: 48px;" class=" container-fluid mt-2 carousel carousel-fade " data-bs-ride="carousel">
+  <div class="carousel-inner ">
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img src="assets/images/img.jpg" class="d-block w-100" alt="..." style="height: 400px; width: 90%;">
+    </div>
+    <div class="carousel-item" data-bs-interval="5000">
+      <img src="assets/images/img5.jpg" class="d-block w-100" alt="..." style="height: 400px; width: 90%;">
+    </div>
+    <div class="carousel-item" data-bs-interval="7000">
+      <img src="assets/images/img6.jpg" class="d-block w-100" alt="..." style="height: 400px; width: 90%;">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="first_h">
+  <p>⚡️ HAPPY HOLIDAY DEALS ON EVERYTHING ⚡️</p>
+</div>
+<!-- <div class="container-fluid  productcss">
+  <div class="itemclass">
+      <div class=" img-fluid">
+          <div class="card  cardcss1 text-center shadow p-3 mb-5 bg-body rounded hover-2"  *ngFor="let item of _ShowProducts">
+              <img src={{item.im_path}} style=" height: 200px;"
+                  class="card-img-top w-100" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">{{item.IM_CODE}}</h5>
+                  <p class=" justify-content-center m-0 ">{{item.IM_descr}}</p>
+                  <p class="text-sm-start m-0 fw-bolder">Price: ${{item.mrp}}</p>
+                  <a href="#" class="btn btn-primary btn-sm m-0">Add To Cart</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div> -->
+<!-- <div class="container-fluid ">
+  <div class="row w-100">
+    <div class="col cardcss1   ">
+      <div class="card text-center shadow p-3 mb-5 rounded hover-2" *ngFor="let item of _ShowProducts">
+        <img src={{item.im_path}} style=" height: 200px;" class="card-img-top w-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{item.IM_CODE}}</h5>
+          <p class=" justify-content-center m-0 ">{{item.IM_descr}}</p>
+          <p class="text-sm-start m-0 fw-bolder "> Price:<span class="text-decoration-line-through fw-light">${{item.mrp}}</span>
+          </p>
+          <strong class="">Final Price: ${{item.IM_Salepr}}.00</strong>
+          <hr>
+          <a href="#" class="btn btn-primary fw-bolder btn-sm m-0 mt-0">Add To Cart</a>
+        </div>
+      </div>
+      <div class="card text-center shadow p-3 mb-5 rounded hover-2" *ngFor="let item of _ShowProducts1">
+        <img src={{item.im_path}} style=" height: 200px;" class="card-img-top w-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{item.IM_CODE}}</h5>
+          <p class=" justify-content-center m-0 ">{{item.IM_descr}}</p>
+          <p class="text-sm-start m-0 fw-bolder "> Price:<span class="text-decoration-line-through fw-light">${{item.mrp}}</span>
+          </p>
+          <strong class="">Final Price: ${{item.IM_Salepr}}.00</strong>
+          <hr>
+          <a href="#" class="btn btn-primary fw-bolder btn-sm m-0 mt-0">Add To Cart</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+<div class="container-fluid">
+  <div class="col-12 d-flex   ">
+    <div class="col-sm-3" *ngFor="let item of _ShowProducts">
+      <div class="m-3 card shadow-lg m-1 ">
+        <img src={{item.im_path}} class=" w-100" alt="...">
+        <div class="card-body w-100">
+          <h5 class="card-title">{{item.IM_CODE}}</h5>
+          <p class=" justify-content-center m-0 ">{{item.IM_descr}}</p>
+          <p class="text-sm-start m-0 fw-bolder "> Price:<span
+              class="text-decoration-line-through fw-light">₹.{{item.mrp}}</span>
+          </p>
+          <strong class="">Final Price: ₹.{{item.IM_Salepr}}.00</strong>
+          <hr>
+          <a href="#" class="btn btn-primary fw-bolder btn-sm m-0 mt-0">Add To Cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3" *ngFor="let item of _ShowProducts">
+      <div class="m-3 card shadow-lg m-1 ">
+        <img src={{item.im_path}} class=" w-100" alt="...">
+        <div class="card-body w-100">
+          <h5 class="card-title">{{item.IM_CODE}}</h5>
+          <p class=" justify-content-center m-0 ">{{item.IM_descr}}</p>
+          <p class="text-sm-start m-0 fw-bolder "> Price:<span
+              class="text-decoration-line-through fw-light">₹.{{item.mrp}}</span>
+          </p>
+          <strong class="">Final Price: ₹.{{item.IM_Salepr}}.00</strong>
+          <hr>
+          <a href="#" class="btn btn-primary fw-bolder btn-sm m-0 mt-0">Add To Cart</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="card col-sm-3 m-1 shadow-lg " *ngFor="let item of _ShowProducts1">
+        <img src={{item.im_path}} class=" w-100" alt="...">
+        <div class="card-body w-100">
+          <h5 class="card-title">{{item.IM_CODE}}</h5>
+          <p class=" justify-content-center m-0 ">{{item.IM_descr}}</p>
+          <p class="text-sm-start m-0 fw-bolder "> Price:<span
+              class="text-decoration-line-through fw-light">${{item.mrp}}</span>
+          </p>
+          <strong class="">Final Price: ${{item.IM_Salepr}}.00</strong>
+          <hr>
+          <a href="#" class="btn btn-primary fw-bolder btn-sm m-0 mt-0">Add To Cart</a>
+        </div>
+
+      </div>
+
+      <div class="card m-1 col-sm-3 shadow-lg" *ngFor="let item of _ShowProducts2">
+        <img src={{item.im_path}} class=" w-100" alt="...">
+        <div class="card-body w-100">
+          <h5 class="card-title">{{item.IM_CODE}}</h5>
+          <p class=" justify-content-center m-0 ">{{item.IM_descr}}</p>
+          <p class="text-sm-start m-0 fw-bolder "> Price:<span
+              class="text-decoration-line-through fw-light">${{item.mrp}}</span>
+          </p>
+          <strong class="">Final Price: ${{item.IM_Salepr}}.00</strong>
+          <hr>
+          <a href="#" class="btn btn-primary fw-bolder btn-sm m-0 mt-0">Add To Cart</a>
+        </div>
+      </div> -->
+
+  </div>
+
+  <div id="grid_f">
+    <div id="pro1" class="pro">
+      <div id="msg">
+        <h2 class="summer_pro">Addidas</h2>
+        <button class="btn btn-light">
+          <span class="shop_n">Shop Now </span>
+        </button>
+      </div>
+    </div>
+    <div id="pro2" class="pro">
+      <div id="msg">
+        <h2 class="summer_pro">Nike</h2>
+        <button class="btn btn-light">
+          <span class="shop_n">Shop Now </span>
+        </button>
+      </div>
+    </div>
+    <div id="pro3" class="pro">
+      <div id="msg">
+        <h2 class="summer_pro">Nike customized</h2>
+        <button class="btn btn-light">
+          <span class="shop_n">Shop Now </span>
+        </button>
+
+      </div>
+    </div>
+  </div>
+  <section class="container">
+    <!-- <div class="headtext mb-2">
+      <h3>Mahabis Shoes Classical Video</h3>
+  </div> -->
+    <vg-player class="videosize">
+      <video [vgMedia]="$any(media)" class="video" #media id="singleVideo" loop="true" autoplay="autoplay" controls
+      [muted]="'muted'">
+        <!-- <source src="http://static.videogular.com/assets/videos/videogular.mp4" type="video/mp4" muted> -->
+        <source src="assets/images/vi.mp4" type="video/mp4" muted>
+      </video>
+    </vg-player>
+  </section>
+  <!-- 
+
+<div id="container1">
+  The before image is first 
+  <img src="assets/images/img.jpg" style="height:300px; width:100%"/>
+   The after image is last 
+  <img src="assets/images/img3.jpg"style="height:300px; width:100%" />
+ </div> -->
+  <section class="container starrating">
+
+    <h3 class="text-white">Rated Excellent By You</h3>
+    <h6><ngb-rating [max]="5" [(rate)]="starRating" [readonly]="false"></ngb-rating></h6>
+    <h6 class="text-white">4.3 out of 5 based on 39,758 reviews </h6>
+
+  </section>
+
+  <div id="home">
+    <img src="assets/images/slide.jpg" style="width:100%; height:400px" alt="">
+    <img src="assets/images/slide1.jpg"  style="width:100%; height:400px" alt="">
+  </div>
+  
+  <section class="gallery mt-2 pb-2 ">
+    <div class="container-lg">
+       <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 m-auto">
+          <div class="col">
+             <img src="assets/img/1.jpg" class="gallery-item" alt="gallery">
+          </div>
+          <div class="col">
+             <img src="assets/img/2.jpg" class="gallery-item" alt="gallery">
+          </div>
+          <div class="col">
+             <img src="assets/img/3.jpg" class="gallery-item" alt="gallery">
+          </div>
+          <div class="col">
+             <img src="assets/img/4.jpg" class="gallery-item" alt="gallery">
+          </div>
+          <div class="col">
+             <img src="assets/img/5.jpg" class="gallery-item" alt="gallery">
+          </div>
+          <div class="col">
+             <img src="assets/img/6.jpg" class="gallery-item" alt="gallery">
+          </div>
+       </div>
+    </div>
+ </section>
+  <!-- <section class="container-fluid  mt-3  "  style="height: 300px; width: max-content; display: inline-block; display: block;">
+  <div class="row imgitems" style="background-color: aqua; width: 100%;">
+      <div class="col-md-3 img-fluid">
+          <div class="cardc p-0">
+              <img src="assets/images/img.jpg" style="height: 300px; width: 100vw;" alt="">
+          </div>
+      </div>
+      <div class="col-md-3 img-fluid">
+          <div class="cardc p-0">
+              <img src="assets/images/img3.jpg" style="height: 300px; width: 100vw;" alt="">
+          </div>
+      </div>
+      <div class="col-md-3 img-fluid">
+          <div class="cardc p-0">
+              <img src="assets/images/img5.jpg" style="height: 300px; width: 100vw;" alt="">
+          </div>
+      </div>
+      <div class="col-md-3 img-fluid">
+          <div class="cardc p-0">
+              <img src="assets/images/img6.jpg" style="height: 300px; width: 100vw;" alt="">
+          </div>
+      </div>
+  </div>
+</section> -->
+
+  <!-- <div class="container-fluid grid_f ">
+  <div class="row   ">
+      <div class="col-md-3 ">
+          <img src="assets/images/img.jpg" style="height: 300px; width: 100%;" alt="">
+      </div>
+      <div class="col-md-3">
+          <img src="assets/images/img.jpg" style="height: 300px; width: 100vw;" alt="">
+      </div>
+      <div class="col-md-3">
+          <img src="assets/images/img.jpg" style="height: 300px; width: 100vw;" alt="">
+      </div>
+      <div class="col-md-3">
+          <img src="assets/images/img.jpg" style="height: 300px; width: 100vw;" alt="">
+      </div>
+  </div>
+</div> -->
+   <div class="container-fluid">
+    <div class="col-12 d-flex   ">
+      <div class="col-sm-3" >
+        <div class="m-3 card shadow-lg m-1 cardcss apps-card"style="width: 18rem;">
+          <img src="assets/images/img.jpg" class="card-img-top p-1" alt="...">
+        </div>
+      </div>
+      <div class="col-sm-3" >
+        <div class="m-3 card shadow-lg m-1 cardcss"style="width: 18rem;" >
+          <img src="assets/images/img3.jpg" class="card-img-top p-1" alt="...">
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="m-3 card shadow-lg m-1 cardcss"style="width: 18rem;">
+          <img src="assets/images/img5.jpg" class="card-img-top   p-1" alt="...">
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="m-3 card shadow-lg m-1 cardcss"style="width: 18rem;">
+          <img src="assets/images/img6.jpg" class="card-img-top  p-1" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+      <!-- <div class="container mt-3 shadow-lg">
+  <div class="card">
+      <div class="card-body p-0">
+          <img src="assets/images/img3.jpg" style="height: 300px; width: 100%;" alt="">
+      </div>
+  </div>
+</div> -->
+
+      <div class="sticky ">
+        <div class="row d-flex ">
+          <div class="col d-flex">
+            <img src="https://www.bidzoon.com/images/emptycart.gif" style="height:50px; width:80px">
+            <span class="fw-bolder fs-4 mx-4">Instant Discount</span>
+          </div>
+        </div>
+      </div>
+      <footer class="conatiner-fluid  text-white " style="height:370px; width:100%; background-color: rgb(0, 0, 0);">
+        <div class="row mx-4">
+          <div class="col-md-4 mt-2  ">
+            <input type="text" name="ue" class="js-customer-email" placeholder="Enter Email address">
+            <input type="submit" name="submit" id="footerSubscribeSubmit" class="button mb-2" value="SIGN UP">
+            <div class="ftr-policy-content text-small">
+              By signing up to our newsletter you are agreeing to our <a href="#" target="_blank">privacy
+                policy</a>
+              <br>
+              please note: only new subscribers and customers will receive an email
+            </div>
+          </div>
+          <div class="col-md-3 mt-2 border1 ">
+            <ul class="text-small">
+              <a>
+                <li class="mb-3 ">Affiliates</li>
+              </a>
+              <a>
+                <li class="mb-3 ">Offers</li>
+              </a>
+              <a>
+                <li class="mb-3 ">Careers</li>
+              </a>
+              <a>
+                <li class="mb-3 ">Stories of time well spent</li>
+              </a>
+              <a>
+                <li class="mb-3 ">Who we are</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col-md-3 mt-2  ">
+            <ul class="text-small">
+              <a>
+                <li class="mb-3 ">Read our reviews</li>
+              </a>
+              <a>
+                <li class="mb-3 ">FAQs</li>
+              </a>
+              <a>
+                <li class="mb-3 ">Help</li>
+              </a>
+              <a>
+                <li class="mb-3 ">Delivery info</li>
+              </a>
+              <a>
+                <li class="mb-3 ">Offer T&Cs</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col-md-2 mt-2  ">
+            <ul class="text-small">
+              <a>
+                <li class="mb-3 ">Contact us</li>
+              </a>
+              <a>
+                <li class="mb-3 ">FAQs</li>
+              </a>
+              <a>
+                <li class="mb-3 ">Help</li>
+              </a>
+              <a>
+                <li class="mb-3 ">Delivery info</li>
+              </a>
+              <a>
+                <li class="mb-3 ">Offer T&Cs</li>
+              </a>
+            </ul>
+
+          </div>
+        </div>
+        <hr>
+        <div id="extras">
+          <p class="copy">&copy; 2023 All rights reserved. Designed by Mahabis</p>
+          <div class="pay">
+            <img src="https://yevgenysim-turkey.github.io/shopper/assets/img/payment/mastercard.svg"
+              class="payments p-1" />
+            <img src="https://yevgenysim-turkey.github.io/shopper/assets/img/payment/visa.svg" class="payments p-1" />
+            <img src="https://yevgenysim-turkey.github.io/shopper/assets/img/payment/amex.svg" class="payments p-1" />
+            <img src="https://yevgenysim-turkey.github.io/shopper/assets/img/payment/paypal.svg" class="payments p-1" />
+            <img src="https://yevgenysim-turkey.github.io/shopper/assets/img/payment/maestro.svg"
+              class="payments p-1" />
+          </div>
+        </div>
+      </footer>
+
+
+
+      <!-- Modal -->
+      <form [formGroup]="employyeform">
+        <div class="modal fade" id="signin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="name" formControlName="name"
+                    placeholder="name@example.com" required>
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="password" formControlName="password"
+                    placeholder="password"  required>
+
+                </div>
+              </div>
+              <a href=""> <span class="fw-bolder" style="color: blue;">Forgot Password?</span> </a>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Login</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+      <!-- <div class="row">
+
+  <div class="col-sm-3" *ngFor="let item of _ShowProducts">
+    
+<div class="card">
+  <div class="card-body">    
+    <img src={{item.im_path}} style=" height: 200px;"
+    class="card-img-top w-100" alt="...">
+  </div>
+</div>
+
+</div>
+</div>
+
+
+                  {{_ShowProducts | json}} -->
+      <!-- <div class="form">
+    <h2>Login Here</h2>
+    <input type="email" name="email" placeholder="Enter Email Here">
+    <input type="password" name="" placeholder="Enter Password Here">
+    <button class="btnn"><a href="#">Login</a></button>
+
+    <p class="link">Don't have an account<br>
+      <a href="#">Sign up here</a>
+    </p>
+    <p class="liw">Log in with</p>
+
+    <div class="icons">
+      <a href="#"><i name="logo-facebook"></i></a>
+      <a href="#"><i name="logo-instagram"></i></a>
+      <a href="#"><i name="logo-twitter"></i></a>
+      <a href="#"><i name="logo-google"></i></a>
+      <a href="#"><i name="logo-skype"></i></a>
+    </div>
+
+  </div> -->
+  
+
+
+<!-- Modal -->
+<div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-dialog-centered modal-lg">
+   <div class="modal-content">
+     <div class="modal-header">
+      
+     </div>
+     <div class="modal-body">
+        <img src="img/1.jpg" class="modal-img" alt="modal img">
+     </div>
+   </div>
+ </div>
+</div>
+
+
+
+
